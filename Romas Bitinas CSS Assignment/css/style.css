@@ -1,0 +1,193 @@
+* {
+    margin: 0 auto;
+    color: #364367;
+}
+.nav-item{ 
+    text-decoration: none;
+    color: white;
+}
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    opacity: .7;
+}
+a, a:visited {
+    text-decoration: none;
+}
+body { 
+    box-sizing:content-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b5dbe6;
+}
+.head-nav {
+    padding-top: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #416d9a;
+    height: 60px;
+    margin-bottom: 30px;
+    
+}
+ul {
+    list-style: none;
+}
+.nav-item {
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    float: right;
+    font-size: 24px;
+    font-weight: 600;
+}
+.left-item {
+    float: left;
+    opacity: .5;
+}
+.wrapper-full {
+    max-width: 1920px;
+}
+main {
+    clear: both;
+    
+}
+
+.bio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    justify-content: space-between;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
+.bio-text, .bio-img{
+    align-self: center; 
+     
+
+}
+.bio-head {
+    color: #41556e;
+    font-size: 54px;
+    margin-bottom: 18px;
+}
+.bio-desc {
+    color: #517084;
+    font-size: 24px;
+}
+.general-info {
+    padding-left: 210px;
+    margin-bottom: 25px;
+    margin-top: -50px;
+}
+.general-info-grid {
+    display: grid;
+    justify-content: left;
+    grid-auto-flow: column;
+    align-content: start;
+    font-size: 24px;
+    grid-gap: 124px;
+    margin-bottom: 71px;
+}
+.contacts1 {
+    align-self: left;
+    padding: 0;
+}
+.contacts2 {
+    opacity: .64;
+}
+.kaliningrad-pic {
+    position: relative;
+    left: 15%;
+    margin-bottom: 10px;
+}
+.photos-sign {
+    padding-left: 228px;
+    opacity: .64;
+    margin-bottom: 20px;
+}
+.mylife {
+    margin-left: 228px;
+    max-width: 980px;
+}
+.bio-head {
+    color: #364367;
+    
+}
+.split-line{
+    display: block;
+    margin: 0 auto;
+    opacity: .5;
+}
+.bio-p {
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+.hobbies h2 {
+    margin-top: 20px;
+    color: #364367;
+    font-size: 54px;
+    padding-left: 228px;
+}
+.hobbies-title {
+    font-size: 28px;
+    opacity: .8;
+}
+.hobbies-grid {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+.hobbie-pic {
+ width: 180px;
+ margin-top: 26px;
+}
+.hobbies-head {
+    margin-bottom: 30px;
+}
+
+.hobbies-more {
+    padding-left: 168px;
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: #24518C;
+}
+.hobbies-more-link , .hobbies-more-link:visited {
+    color: #364367;
+}
+footer {
+    background-color: #24518C;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+footer h3 {
+    color: white;
+    font-size: 28px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+footer a, footer li {
+    color: white;
+    list-style: none;
+    font-size: 22px;
+}
+.contacts_list .link1 {
+ background: url('img/fblogo.png') no-repeat left;
+ padding-left: 20px;
+ padding-bottom: 0px;
+
+}
+.contacts_list .link2 {
+    background: url('img/instlogo.png') no-repeat left;
+    padding-left: 20px;
+    padding-bottom: 0px;
+   
+   }
+.contacts_list .link3 {
+ background: url('img/steam-logo\ \(2\).png') no-repeat left;
+ padding-left: 20px;
+ padding-bottom: 0px;
+
+}
